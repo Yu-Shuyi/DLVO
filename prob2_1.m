@@ -36,6 +36,6 @@ for i = 1:3
 end
 
 axis([0 500 -30 30]);
-xlabel('Separation distance between NPs (unit: A)');
+xlabel('Distance between NPs (unit: A)');
 ylabel('Total energy between NPs (unit: k_BT)');
 legend('0.001 mol/L KCl(aq)', '0.01 mol/L KCl(aq)','0.1 mol/L KCl(aq)','0.001 mol/L CaCl2(aq)','0.01 mol/L CaCl2(aq)','0.1 mol/L CaCl2(aq)');
